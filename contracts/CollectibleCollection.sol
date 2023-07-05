@@ -30,7 +30,7 @@ contract CollectibleCollection is
     function initialize(
         string memory name,
         string memory symbol,
-        bytes32 memory _merkelRoot
+        bytes32 _merkelRoot
     ) public initializer {
       merkelRoot = _merkelRoot;
         __ERC721_init(name, symbol);
